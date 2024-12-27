@@ -1,0 +1,101 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.logo {
+  height: 90px;
+  width: 80px;
+  background-color: aqua;
+}
+
+.collections-title {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.save-btn {
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+  background-color: #005bb5;
+}
+
+.popup {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007aff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 100px; /* To prevent overlap with the fixed header */
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000; /* Black color for the title */
+}
+
+.main-description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555; /* Subtle gray color for the description */
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.get-started-btn:hover {
+  background-color: #005bb5; /* Slightly darker blue on hover */
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+.get-started-btn:active {
+  transform: scale(0.95); /* Slight click effect */
+}
